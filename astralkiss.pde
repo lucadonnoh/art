@@ -12,7 +12,7 @@ float deg = start;
 float degoff = 0.0001;
 void draw()
 {
-  bgcolor = map(dist(sin(deg)*off, cos(deg)*off, sin(deg*0.68+1)*off, cos(deg*0.68+1)*off),0,105,14,240);
+  bgcolor = map(dist(sin(deg)*off, cos(deg)*off, sin(deg*0.6814+1)*off, cos(deg*0.6814+1)*off),0,105,14,240);
 
   background(bgcolor);
   translate(500,1000);
